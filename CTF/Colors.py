@@ -4,7 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from PIL import Image
 import  PIL.ImageOps
-# запускаем дравер, логинимся и прочее говно
+# запускаем дравер, логинимся
 driver = webdriver.Chrome('/home/zawarudo/Documents/chromedriver')
 driver.get('https://fetefot763.eu.pythonanywhere.com/tasks/task29') # получаем страницу с конкурсом
 element = driver.find_element_by_id('user-login') # находим поле логина по его id(можно узнать из кода элемента)
